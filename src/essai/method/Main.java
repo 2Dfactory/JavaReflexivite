@@ -1,4 +1,4 @@
-package essai2;
+package essai.method;
 
 import java.lang.reflect.Method;
 

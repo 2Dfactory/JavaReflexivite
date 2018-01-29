@@ -1,4 +1,4 @@
-package essai1;
+package essai.Class;
 
 public class Main {
 
