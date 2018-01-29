@@ -24,7 +24,7 @@ public class Main {
 			Constructor ct = cl.getConstructor(types);
 			
 			//On instancie l'objet avec le constructeur surchargé
-			Object o2 = ct.newInstance("valeur1", "valeur2");
+			Object o2 = ct.newInstance(new String[]{"valeur1", "valeur2"});
 			
 			//On va chercher la méthode toString, elle n'a aucun paramètres
 			Method m = cl.getMethod("toString", null);
